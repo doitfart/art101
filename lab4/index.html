@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4: Pseudocoding and Problem-Solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,24 +23,40 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4: Pseudocoding and Problem-Solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The challenge or goal of this lab was to get in the habit of drafting pseudocodes before beginning coding, essentially creating an outline or skeleton of what we want to code.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>My partner and I struggled primarily with finding a game that would be simple enough to pseudocode. We settled on hangman as my partner found a really helpful, similarly pseudocoded version on github. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+					<p>Results of the lab can be found below, with captioned screenshots, pseudocode, and lists.</p>
+					<p>Here are our initial lists, the first being a pseudocode of how one could make bread, and the second being the pseudocode of hangman before it was implemented in JavaScript.</p>
+					<img src="img/listssc.png" width="500">
+					<p>Here is our psuedocode of Hangman: </p>
+					<pre><code>
+//Creating a HangMan game:
+//Generate a random 4 letter word and store it in the variable
+//Display the length of the 4 letter word to the user //Correct guess is less than the length of the word
+//Prompt the user to quess a letter
+  //If guessed correct
+    //increment the correct guess by 1
+  //If guessed incorrect
+    //increment the incorrect guess by 1
+    //Draw part of the hangman with each incorrect guess by 1
+//If guessed more than 2 time incorrectly, 
+  //inform the user
+//If all letters are guessed correctly
+//When they lose exit the program
+					</code></pre>
+					<p>Here is that same Pseudocode, but in JavaScript on VisualStudio:</p>
+					<img src="img/task3sc.png" width="1000">
 					<div id="output"></div>
 			</div>
 		</section>
