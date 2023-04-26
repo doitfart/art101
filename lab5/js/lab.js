@@ -1,21 +1,21 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5: Data Types & Variables - practice JScode and its different variables.
+// Author: Duncan Moran
+// Date: April 25, 2023
 
-// Constants
+// Define Variables
+var make = "Honda";
+var model = "Civic";
+var color = "Brown";
+var ownIt = true;
+var year = 2015;
 
-// Functions
+//Calculate Age of Car
+var age = 2023 - year;
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//Output of Variables
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Ownership: " + ownIt + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
