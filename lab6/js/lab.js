@@ -1,21 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 6: Arrays and Objects - Further practice JavaScript by experimenting with arrays and objects.
+// Author: Duncan Moran
+// Date: April 27, 2023
 
-// Constants
+// Define Variables
+var myTransport = ["walk", "bus", "lyft", "carpool", "drive"];
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// Create an object for my main ride
+var myMainRide = {
+  make: "Honda",
+  model: "Civic", 
+  color: "Brown",
+  year: 2015,
+  age: function() {
+    return 2023 - this.year;
+  }
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// Output
+document.writeln("Ways I get around in Santa Cruz: ", myTransport, "<br>");
 
-// let's get this party started
-main();
+document.writeln("My Ride back in Oakland: <pre>",
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
