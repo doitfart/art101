@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> Lab 11: Libraries & jQuery</title>
+        <link rel="stylesheet" type="text/css" href="css/lab.css">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="js/lab.js" defer></script>
+    </head>
+    <body>
+        <div id="content">
+            <section>
+            <h1>Lab 11: Libraries & jQuery</h1>
+                <div id="challenge" class="minor-section">
+                    <h2>Challenge</h2>
+                    <p>The goal of this lab was to introduce ourselves to and experiment with jQuery.</p>
+                </div>
+
+                <div id="problems" class="minor-section">
+                    <h2>Problems</h2>
+                    <p>I had a fair amount of confusion with this lab, partially because I felt some of the instructions were not very clear. The main thing I had confusion with was the class names in CSS. My "minor-section" class, when toggled by the button, turns into "minor-section special" in my html which i put into the css as .minor-section special. It didnt work, and I experimented with a few things before giving up and checking Wes' code on his lab11 site. Despite the html displaying it as "minor-section special," the CSS just wanted .special for the styling of the section boxes when the button is toggled. Maybe the CSS sees the section's class as .special when the button, which toggles the class "special," is pressed despite the html saying the class is called "minor-section special." </p>
+                </div>
+
+                <div id="results" class="minor-section">
+                    <h2>Results</h2>
+                    <p>The results can be seen by inspecting this very page! The buttons and their functionality are the results. Try clicking one!</p>
+                        <div id="output">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <nav id="linkHome">
+            <h3>Return to Homepage:</h3>
+            <ul>
+                <a href="/index.html">click here to return</a>
+            </ul>
+        </nav>
+    </body>
+</html>

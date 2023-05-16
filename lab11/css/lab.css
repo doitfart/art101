@@ -1,0 +1,19 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgb(246, 169, 45);
+  }
+
+  .special {
+    background-color: rgb(249, 190, 95);
+    border: outset 5px rgb(246, 201, 127)
+  }
+
+  body {
+    background-color: rgb(237, 168, 193);
+  }
+
+  h2 {
+    font-family:'Courier New', Courier, monospace;
+  }
