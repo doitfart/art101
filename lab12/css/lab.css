@@ -1,0 +1,27 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 5px rgb(227, 210, 112);
+    background-color: rgb(122, 30, 155);
+  }
+
+  body {
+    background-color: rgb(106, 28, 134);
+  }
+
+  p {
+    color: white;
+  }
+
+  h1 {
+    color: white
+  }
+
+  h2 {
+    color: white
+  }
+
+  h3 {
+    color: white
+  }
+
