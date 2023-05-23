@@ -3,8 +3,7 @@
 // Date: May 23, 2023
 
 //start sorting when button is pressed
-var button = document.getElementById("button");
-button.addEventListener("click", function() {
+$("#button").click(function() {
     console.log("STARTED");
     var str;
     //loop from start to end

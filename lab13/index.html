@@ -16,7 +16,7 @@
 
                 <div class="minor-section">
                     <h2>Problems</h2>
-                    <p>I had a similar issue as I did in the last lab, but this time outlined my issue in the coding questions discord channel for help. Basically, for the function in my JS, specifically line 6 & 7, when I use jQuery to get the element in line 6(var button = $("#button")), the console tells me that 'button.addEventListener' in line 7 is "not a function." For some reason, changing line 6 to pure JavaScript alleviates this problem and allows my function to work as normal. I hope to hear back from my classmates/peers/TAs/anyone on how to solve this issue and better implement jQuery into my code. </p>
+                    <p>I had a similar issue as I did in the last lab, but this time outlined my issue in the coding questions discord channel for help. Basically, for the function in my JS, specifically line 6 & 7, when I use jQuery to get the element in line 6(var button = $("#button")), the console tells me that 'button.addEventListener' in line 7 is "not a function." For some reason, changing line 6 to pure JavaScript alleviates this problem and allows my function to work as normal. I hope to hear back from my classmates/peers/TAs/anyone on how to solve this issue and better implement jQuery into my code. EDIT: turns out, line 7 was the issue; combining jQuery elements and pure JS doesnt really work out well. I removed line 6 establishing the button variable, and changed line 7 to be $("#button).click(function here). I knew jQuery made things simpler, but not this much simpler. Wes/a classmate was able to give me the jQuery form of a click event listener. </p>
                 </div>
 
                 <div class="minor-section">
