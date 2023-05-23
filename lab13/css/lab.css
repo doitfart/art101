@@ -1,0 +1,14 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: double 8px rgb(244, 236, 159);
+    background-color: rgb(241, 198, 129);
+  }
+
+  body {
+    background-color: rgb(245, 201, 193);
+  }
+
+  #output {
+    columns: 4;
+  }
