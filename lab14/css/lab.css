@@ -1,0 +1,10 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 10px rgb(228, 233, 237);
+    background-color: white;
+  }
+
+  body {
+    background-color: rgb(219, 223, 226);
+  }

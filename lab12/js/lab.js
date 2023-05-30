@@ -22,8 +22,7 @@ function sortingHat(str) {
 }
 
 //click listener attached to the button that assigns user to a house based on # of letters in name
-var myButton = document.getElementById("button");
-myButton.addEventListener("click", function() {
+$("#button").click(function() {
     console.log("button clicked");
     //get input
     var name = document.getElementById("input").value;
