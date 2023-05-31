@@ -16,14 +16,14 @@
 
                 <div class="minor-section">
                     <h2>Problems</h2>
-                    <p>problems here</p>
+                    <p>I didnt really know how to incorporate data from APIs outside of the example we did in class. We used the data.answer command, and I thought I had to do that for any API, but when using another API, I found that wasnt the case. Answer wasnt working, but since I had the console.log command logging whatever data received from the API, I was able to see the labels for each piece of data the API gave me. Using the Chuck Norris API, I found out the data I needed (the joke) wasnt labeled "answer" but was labeled "value." After i replaced instances of data.answer with data.value, it started working. I followed this same idea with getting the image that the API sends back, labaled "icon_url." I referenced it correctly, however, it wouldnt display the image. After some debugging and a lot of frustration, I found out that I was not to blame for the image not displaying; the url provided for the image led to the url's page, but the page is blank with text saying "not found." Would have been cool if the image worked, but at least I know my code was right!</p>
                 </div>
 
                 <div class="minor-section">
                     <h2>Results</h2>
-                    <p>results here</p>
-                    <div id="output">
-                        <button id="activate">Activate</button>
+                    <p>Press the "Activate" button to receive a Chuck Norris joke, because those still exist.</p>
+                    <button id="activate">Activate</button>
+                    <div id="output">                        
                     </div>
                 </div>
             </section>
